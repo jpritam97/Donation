@@ -14,24 +14,41 @@
         android:theme="@style/Theme.Donation"
         tools:targetApi="31">
         <activity
+            android:name=".my_history"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".my_account"
+            android:exported="true" >
+
+        </activity>
+        <activity
             android:name=".NavigationbarActivity"
-            android:exported="false"
+            android:exported="true"
             android:label="@string/title_activity_navigationbar"
-            android:theme="@style/Theme.Donation.NoActionBar" />
+            android:theme="@style/Theme.Donation.NoActionBar" >
+
+        </activity>
         <activity
             android:name=".Form"
-            android:exported="false" />
+            android:exported="true" >
+
+        </activity>
+
         <activity
             android:name=".Front_page"
             android:exported="false" />
         <activity
             android:name=".Home_Screen"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
             android:name=".Splash_screen"

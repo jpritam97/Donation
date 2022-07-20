@@ -7,20 +7,19 @@
     tools:context=".Form">
 
 
-
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="295dp"
+        android:layout_height="31dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="77dp"
-        android:layout_marginEnd="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginBottom="44dp"
         android:text="What do you want to donate ?"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -29,44 +28,48 @@
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="45dp"
         android:layout_marginEnd="70dp"
         android:layout_marginBottom="10dp"
         android:text="Object Name"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/textView14"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName5"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName5"
-        app:layout_constraintVertical_bias="0.234" />
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:layout_constraintVertical_bias="0.388" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="28dp"
         android:layout_marginBottom="10dp"
-        android:text="Name of the person"
-        android:textSize="16sp"
+        android:text="Person's Name"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName6"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName6"
-        app:layout_constraintStart_toStartOf="@+id/textView13"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName6" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName6"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
         android:layout_marginEnd="97dp"
         android:layout_marginBottom="10dp"
         android:text="Address"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName7"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName7"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14"
         app:layout_constraintVertical_bias="1.0" />
 
@@ -74,11 +77,12 @@
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="10dp"
         android:text="Phone no."
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName8"
-        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView15"
         app:layout_constraintVertical_bias="0.857" />
 
@@ -86,14 +90,15 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="46dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="35dp"
         android:layout_marginEnd="100dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="40dp"
         android:text="List of Organisation"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName9"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
 
@@ -101,11 +106,12 @@
         android:id="@+id/textView17"
         android:layout_width="96dp"
         android:layout_height="47dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="32dp"
         android:text="Organisation name"
         android:textAlignment="center"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@+id/textView16"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <EditText
@@ -113,21 +119,24 @@
         android:layout_width="192dp"
         android:layout_height="43dp"
         android:layout_marginStart="5dp"
-        android:layout_marginBottom="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="24dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName6"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName6"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName6" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName6"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <EditText
         android:id="@+id/editTextTextPersonName6"
-        android:layout_width="192dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="29dp"
+        android:layout_width="199dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="24dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
@@ -137,38 +146,69 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName7"
-        android:layout_width="185dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="26dp"
+        android:layout_width="198dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="16dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName8"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName6"
+        app:layout_constraintHorizontal_bias="0.714"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName6" />
 
     <EditText
         android:id="@+id/editTextTextPersonName8"
-        android:layout_width="187dp"
-        android:layout_height="41dp"
+        android:layout_width="198dp"
+        android:layout_height="43dp"
         android:layout_marginTop="26dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName6"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName6"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
 
     <EditText
         android:id="@+id/editTextTextPersonName9"
-        android:layout_width="237dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="32dp"
+        android:layout_width="180dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView17"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="110dp"
+        android:text="For Delivery Service Contact"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="47dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="91dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9"
+        app:srcCompat="@drawable/wp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

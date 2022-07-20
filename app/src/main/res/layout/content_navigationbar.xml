@@ -21,27 +21,33 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="247dp"
-        android:layout_height="240dp"
-        app:srcCompat="@drawable/jojo"
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="132dp" />
+        android:layout_width="315dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.572"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_content_navigationbar"
+        app:srcCompat="@drawable/logo3" />
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="329dp"
         android:layout_height="125dp"
+        android:layout_marginTop="20dp"
         android:text="@string/donation_app_enables_anyone_to_safely_and_simply_make_donations_to_different_organizations_and_charity"
         android:textAlignment="center"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="460dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Start now"
-        tools:layout_editor_absoluteX="189dp"
-        tools:layout_editor_absoluteY="610dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
 </androidx.constraintlayout.widget.ConstraintLayout>
